@@ -6,7 +6,7 @@ Hibernate ORM is used.
 
 A simple web service is required for deployment so Tomcat has been chosen, however the app can be deployed to any Java based web container.
 
-Webpack and Node.js resources are used for frontend tools.  Build files have been included in the project so nothing needs to be done here.
+Webpack and Node.js resources are used for frontend tools.
 
 ### Install
 
@@ -14,7 +14,11 @@ Unpackage all files to a folder.
 
 Install all dependancies via Maven.
 
-Deploy package to Tomcat.
+Install all npm modules and compile
+`npm install`
+`npm run production`
+
+Compile project and deploy package to Tomcat.
 
 * Note: this is an intelliJ project, opening in intelliJ will allow near automatic dependency and deployment management.
 
